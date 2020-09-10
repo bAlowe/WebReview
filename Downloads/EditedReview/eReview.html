@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML Review Page</title>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+        table { 
+        border-collapse: collapse;
+        width: 45%;
+        }
+        th { 
+            height: 35px;
+            
+        }
+        mark {
+            opacity: 1.0;
+        }
+    </style>
+    <body>
+       <table>
+        <tr style="background-color: lightpink;">
+            <th>Skeletal Tags</th>
+            <th style="color: red;">Definition</th>
+        </tr>
+        <tr style="background-color: lightpink;">
+            <td><mark style="color: red; background-color:lightpink;">html</mark></td>
+            <td>The root of an HTML document.</td>
+        </tr>
+        <tr style="background-color: lightpink;">
+            <td><mark style="color: red;background-color:lightpink;">head</mark></td>
+            <td>The information about the document.</td>
+        </tr>
+        <tr style="background-color: lightpink;">
+            <td><mark style="color: red;background-color:lightpink;">meta</mark></td>
+            <td>The metadata about an HTML document.</td>
+        </tr>
+        <tr style="background-color: lightpink;">
+            <td><mark style="color: red;background-color:lightpink;">body</mark></td>
+            <td>The document's body.</td>
+        </tr>
+
+        <tr style="background-color: rgb(94, 184, 226);">
+            <th>Text Tags (block-level)</th>
+            <th style="color: purple">Definition</th>
+        </tr>
+        <tr style="background-color: rgb(94, 184, 226);">
+            <td><mark style="color: purple; background-color: rgb(94, 184, 226);">p</mark></td>
+            <td>A paragraph.</td>
+        </tr>
+        <tr style="background-color: rgb(94, 184, 226);">
+            <td><mark style="color: purple; background-color: rgb(94, 184, 226);">h1 to h6</mark></td>
+            <td>HTML headings.</td>
+        </tr>
+        <tr style="background-color: rgb(94, 184, 226);">
+            <td><mark style="color: purple; background-color: rgb(94, 184, 226);">blockquote</mark></td>
+            <td>A section that is quoted from another source.</td>
+        </tr>
+        <tr style="background-color: rgb(94, 184, 226);">
+            <td><mark style="color: purple; background-color: rgb(94, 184, 226);">address</mark></td>
+            <td>Contact information for the author/owner of a document.</td>
+        </tr>
+        <tr style="background-color: rgb(94, 184, 226);">
+            <td><mark style="color: purple; background-color: rgb(94, 184, 226);">pre</mark></td>
+            <td>Preformatted text.</td>
+        </tr>
+        
+        <tr style="background-color: rgb(233, 124, 233)">
+            <th>Text Tags (Inline)</th>
+            <th style="color: darkblue;">Definition</th>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">em</mark></td>
+            <td>Emphasized text.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">strong</mark></td>
+            <td>Important text.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">q</mark></td>
+            <td>A short quotation.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">cite</mark></td>
+            <td>The title of a work.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">dfn</mark></td>
+            <td>The defining instance of a term.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">code</mark></td>
+            <td>A piece of computer code.
+            </td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">mark</mark></td>
+            <td>Marked/highlighted text.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">del</mark></td>
+            <td>Text that has been deleted from a document.
+            </td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">ins</mark></td>
+            <td>A text that has been inserted into a document.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">abbr</mark></td>
+            <td>An abbreviation or an acronym.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233);">span</mark></td>
+            <td>A section in a document.</td>
+        </tr>
+        <tr style="background-color: rgb(233, 124, 233)">
+            <td><mark style="color: darkblue; background-color: rgb(233, 124, 233); ">br</mark></td>
+            <td>A single line break.</td>
+        </tr>
+
+        <tr style="background-color: yellow">
+            <th>Lists (block-level)</th>
+            <th style="color: green;">Definition</th>
+        </tr>
+        <tr style="background-color: yellow">
+            <td><mark style="color: green;">ol</mark></td>
+            <td>An ordered list.</td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td><mark style="color: green;">ul</mark></td>
+            <td>An ordered list.</td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td><mark style="color: green;">li</mark></td>
+            <td>A list item.</td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td><mark style="color: green;">dl</mark></td>
+            <td>A description list.</td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td><mark style="color: green;">dt</mark></td>
+            <td>A term/name in a description list.</td>
+        </tr>
+        <tr style="background-color: yellow">
+            <td><mark style="color: green;">dd</mark></td>
+            <td>A description/value of a term in a description list.</td>
+        </tr>
+
+        <tr style="background-color: lightgreen">
+            <th>Structural Elements</th>
+            <th style="color: rgb(88, 64, 3);">Definition</th>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">header</mark></td>
+            <td>A header for a document or section.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">footer</mark></td>
+            <td>A footer for a document or section.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">nav</mark></td>
+            <td>Navigation links.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">Section</mark></td>
+            <td>A section in a document.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">article</mark></td>
+            <td>An article.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">main</mark></td>
+            <td>The main content of a document.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">aside</mark></td>
+            <td>Content aside from the page content.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">div</mark></td>
+            <td>A section in a document.</td>
+        </tr>
+        <tr style="background-color: lightgreen">
+            <td><mark style="color: rgb(88, 64, 3); background-color: lightgreen;">hr</mark></td>
+            <td>A thematic change in the content.</td>
+        </tr>
+
+        <tr style="background-color: lightblue">
+            <th>Links and Media Tags</th>
+            <th style="color: brown;">Definition</th>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">a</mark></td>
+            <td>A hyperlink.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">link</mark></td>
+            <td>HTML headings.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">img</mark></td>
+            <td>A section that is quoted from another source.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">figure</mark></td>
+            <td>It specifies self-contained content.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">figcaption</mark></td>
+            <td>A caption for a figure element.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">video</mark></td>
+            <td>A video or movie.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">audio</mark></td>
+            <td>It is sound content.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">object</mark></td>
+            <td>An embedded object.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">param</mark></td>
+            <td>A parameter for an object.</td>
+        </tr>
+        <tr style="background-color: lightblue">
+            <td><mark style="color: brown; background-color: lightblue;">embed</mark></td>
+            <td>A container for an external (non-HTML) application.</td>
+        </tr>
+
+        <tr style="background-color: rgb(226, 199, 209)">
+            <th>Tables</th>
+            <th style="color: deeppink;">Definition</th>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">table</mark></td>
+            <td>A table.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">tr</mark></td>
+            <td>A row in a table.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">th</mark></td>
+            <td>A header cell in a table.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">td</mark></td>
+            <td>A cell in a table.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">caption</mark></td>
+            <td>A table caption.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">thead</mark></td>
+            <td>Groups the header content in a table.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">tbody</mark></td>
+            <td>Groups the body content in a table.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">colgroup</mark></td>
+            <td>It specifies a group of one or more columns in a table for formatting.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">col</mark></td>
+            <td>It specifies column properties for each column within a element.</td>
+        </tr>
+        <tr style="background-color: rgb(226, 199, 209)">
+            <td><mark style="color: deeppink; background-color: rgb(226, 199, 209);">tfoot</mark></td>
+            <td>Groups the footer content in a table.</td>
+        </tr>
+
+        <tr style="background-color: lightgoldenrodyellow">
+            <th>More Tags</th>
+            <th style="color: lightcoral;">Definition</th>
+        </tr>
+        <tr style="background-color: lightgoldenrodyellow">
+            <td><mark style="color: lightcoral; background-color: lightgoldenrodyellow;">Style</mark></td>
+            <td>Style information for a document.</td>
+        </tr>
+        <tr style="background-color: lightgoldenrodyellow">
+            <td><mark style="color: lightcoral; background-color: lightgoldenrodyellow;">Script</mark></td>
+            <td>a client-side script.</td>
+        </tr>
+        <tr style="background-color: lightgoldenrodyellow">
+            <td><mark style="color: lightcoral; background-color: lightgoldenrodyellow;">Canvas</mark></td>
+            <td>Used to draw graphics, on the fly, via scripting (usually JavaScript).</td>
+        </tr>
+        <tr style="background-color: lightgoldenrodyellow">
+            <td><mark style="color: lightcoral; background-color: lightgoldenrodyellow;">svg</mark></td>
+            <td>A container for SVG graphics.</td>
+        </tr>
+
+
+    </table>
+
+        
+    </body>
+</head>
